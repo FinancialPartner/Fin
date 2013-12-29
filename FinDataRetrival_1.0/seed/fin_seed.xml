@@ -1,0 +1,1711 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="financial">
+	<table_structure name="fin_lookup_ml">
+		<field Field="column_name" Type="varchar(31)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="table_name" Type="varchar(31)" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="category" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="chinese_name" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="english_name" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="fin_lookup_ml" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="column_name" Collation="A" Cardinality="133" Null="" Index_type="BTREE" Comment="" />
+		<key Table="fin_lookup_ml" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="table_name" Collation="A" Cardinality="133" Null="" Index_type="BTREE" Comment="" />
+		<options Name="fin_lookup_ml" Engine="InnoDB" Version="10" Row_format="Compact" Rows="206" Avg_row_length="318" Data_length="65536" Max_data_length="0" Index_length="0" Data_free="11534336" Create_time="2013-12-24 13:50:21" Collation="gbk_chinese_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="fin_lookup_ml">
+	<row>
+		<field name="column_name">bs_0001</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">货币资金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0002</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">结算备付金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0003</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">拆出资金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0004</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">交易性金融资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0005</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">衍生金融资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0006</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收票据(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0007</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收账款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0008</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">预付款项(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0009</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收保费(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0010</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收分保账款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0011</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收分保合同准备金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0012</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收利息(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0013</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收股利(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0014</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">其他应收款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0015</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收出口退税(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0016</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收补贴款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0017</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">应收保证金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0018</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">内部应收款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0019</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">买入返售金融资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0020</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">存货(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0021</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">待摊费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0022</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">待处理流动资产损益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0023</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">一年内到期的非流动资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0024</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset</field>
+		<field name="chinese_name">其他流动资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0025</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Asset Summary</field>
+		<field name="chinese_name">流动资产合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0026</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">发放贷款及垫款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0027</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">可供出售金融资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0028</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">持有至到期投资(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0029</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">长期应收款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0030</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">长期股权投资(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0031</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">其他长期投资(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0032</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">投资性房地产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0033</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">固定资产原值(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0034</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">累计折旧(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0035</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">固定资产净值(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0036</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">固定资产减值准备(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0037</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">固定资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0038</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">在建工程(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0039</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">工程物资(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0040</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">固定资产清理(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0041</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">生产性生物资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0042</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">公益性生物资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0043</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">油气资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0044</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">无形资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0045</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">开发支出(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0046</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">商誉(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0047</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">长期待摊费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0048</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">股权分置流通权(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0049</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">递延所得税资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0050</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets</field>
+		<field name="chinese_name">其他非流动资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0051</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Fixed Assets Summary</field>
+		<field name="chinese_name">非流动资产合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0052</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Assets Summary</field>
+		<field name="chinese_name">资产总计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0053</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">短期借款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0054</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">向中央银行借款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0055</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">吸收存款及同业存放(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0056</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">拆入资金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0057</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">交易性金融负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0058</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">衍生金融负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0059</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付票据(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0060</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付账款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0061</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">预收账款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0062</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">卖出回购金融资产款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0063</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付手续费及佣金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0064</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付职工薪酬(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0065</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应交税费(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0066</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付利息(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0067</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付股利(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0068</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">其他应交款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0069</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付保证金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0070</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">内部应付款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0071</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">其他应付款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0072</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">预提费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0073</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">预计流动负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0074</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付分保账款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0075</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">保险合同准备金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0076</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">代理买卖证券款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0077</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">代理承销证券款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0078</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">国际票证结算(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0079</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">国内票证结算(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0080</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">递延收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0081</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">应付短期债券(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0082</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">一年内到期的非流动负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0083</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities</field>
+		<field name="chinese_name">其他流动负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0084</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Current Liabilities Summary</field>
+		<field name="chinese_name">流动负债合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0085</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">长期借款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0086</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">应付债券(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0087</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">长期应付款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0088</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">专项应付款(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0089</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">预计非流动负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0090</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">长期递延收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0091</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">递延所得税负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0092</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities</field>
+		<field name="chinese_name">其他非流动负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0093</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Non-current Liabilities Summary</field>
+		<field name="chinese_name">非流动负债合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0094</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Liabilities Summary</field>
+		<field name="chinese_name">负债合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0095</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">实收资本(或股本)(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0096</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">资本公积(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0097</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">减:库存股(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0098</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">专项储备(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0099</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">盈余公积(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0100</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">一般风险准备(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0101</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">未确定的投资损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0102</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">未分配利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0103</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">拟分配现金股利(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0104</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">外币报表折算差额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0105</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">归属于母公司股东权益合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0106</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity</field>
+		<field name="chinese_name">少数股东权益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0107</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Shareholder Equity Summary</field>
+		<field name="chinese_name">所有者权益(或股东权益)合计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">bs_0108</field>
+		<field name="table_name">balance_statement</field>
+		<field name="category">Liabilities and Equity Summary</field>
+		<field name="chinese_name">负债和所有者权益(或股东权益)总计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0001</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">销售商品、提供劳务收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0002</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">客户存款和同业存放款项净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0003</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">向中央银行借款净增加额(万元</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0004</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">向其他金融机构拆入资金净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0005</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">收到原保险合同保费取得的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0006</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">收到再保险业务现金净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0007</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">保户储金及投资款净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0008</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">处置交易性金融资产净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0009</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">收取利息、手续费及佣金的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0010</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">拆入资金净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0011</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">回购业务资金净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0012</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">收到的税费返还(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0013</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">收到的其他与经营活动有关的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0014</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">经营活动现金流入小计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0015</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">购买商品、接受劳务支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0016</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">客户贷款及垫款净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0017</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">存放中央银行和同业款项净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0018</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">支付原保险合同赔付款项的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0019</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">支付利息、手续费及佣金的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0020</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">支付保单红利的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0021</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">支付给职工以及为职工支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0022</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">支付的各项税费(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0023</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">支付的其他与经营活动有关的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0024</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">经营活动现金流出小计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0025</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flows from Operating Activities</field>
+		<field name="chinese_name">经营活动产生的现金流量净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0026</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">收回投资所收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0027</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">取得投资收益所收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0028</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">处置固定资产、无形资产和其他长期资产所收回的现金净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0029</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">处置子公司及其他营业单位收到的现金净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0030</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">收到的其他与投资活动有关的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0031</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">减少质押和定期存款所收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0032</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">投资活动现金流入小计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0033</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">购建固定资产、无形资产和其他长期资产所支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0034</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">投资所支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0035</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">质押贷款净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0036</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">取得子公司及其他营业单位支付的现金净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0037</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">支付的其他与投资活动有关的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0038</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">增加质押和定期存款所支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0039</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">投资活动现金流出小计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0040</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Investment Activities</field>
+		<field name="chinese_name">投资活动产生的现金流量净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0041</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">吸收投资收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0042</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">其中：子公司吸收少数股东投资收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0043</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">取得借款收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0044</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">发行债券收到的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0045</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">收到其他与筹资活动有关的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0046</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">筹资活动现金流入小计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0047</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">偿还债务支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0048</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">分配股利、利润或偿付利息所支付的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0049</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">其中：子公司支付给少数股东的股利、利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0050</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">支付其他与筹资活动有关的现金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0051</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">筹资活动现金流出小计(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0052</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Cash Flow from Financing Activities</field>
+		<field name="chinese_name">筹资活动产生的现金流量净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0053</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Effect of Changes in Exchange Rate on Cash and Cash Equivalents</field>
+		<field name="chinese_name">汇率变动对现金及现金等价物的影响(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0054</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Net Increase in Cash and Cash Equivalents Amount</field>
+		<field name="chinese_name">现金及现金等价物净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0055</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Net Increase in Cash and Cash Equivalents Amount</field>
+		<field name="chinese_name">加:期初现金及现金等价物余额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0056</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Net Increase in Cash and Cash Equivalents Amount</field>
+		<field name="chinese_name">期末现金及现金等价物余额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0057</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">净利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0058</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">少数股东损益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0059</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">未确认的投资损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0060</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">资产减值准备(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0061</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">固定资产折旧、油气资产折耗、生产性物资折旧(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0062</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">无形资产摊销(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0063</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">长期待摊费用摊销(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0064</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">待摊费用的减少(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0065</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">预提费用的增加(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0066</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">处置固定资产、无形资产和其他长期资产的损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0067</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">固定资产报废损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0068</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">公允价值变动损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0069</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">递延收益增加(减：减少)(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0070</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">预计负债(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0071</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">财务费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0072</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">投资损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0073</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">递延所得税资产减少(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0074</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">递延所得税负债增加(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0075</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">存货的减少(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0076</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">经营性应收项目的减少(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0077</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">经营性应付项目的增加(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0078</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">已完工尚未结算款的减少(减:增加)(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0079</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">已结算尚未完工款的增加(减:减少)(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0080</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">其他(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0081</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Reconcilation of Net Income to Operating in Cash Flow</field>
+		<field name="chinese_name">经营活动产生现金流量净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0082</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Major Investment and Financing Activities not Involving Cash Receipts and Payments</field>
+		<field name="chinese_name">债务转为资本(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0083</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Major Investment and Financing Activities not Involving Cash Receipts and Payments</field>
+		<field name="chinese_name">一年内到期的可转换公司债券(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0084</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Major Investment and Financing Activities not Involving Cash Receipts and Payments</field>
+		<field name="chinese_name">融资租入固定资产(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0085</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Change of Cash and Cash Equivalents</field>
+		<field name="chinese_name">现金的期末余额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0086</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Change of Cash and Cash Equivalents</field>
+		<field name="chinese_name">现金的期初余额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0087</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Change of Cash and Cash Equivalents</field>
+		<field name="chinese_name">现金等价物的期末余额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0088</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Change of Cash and Cash Equivalents</field>
+		<field name="chinese_name">现金等价物的期初余额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">cs_0089</field>
+		<field name="table_name">cash_statement</field>
+		<field name="category">Change of Cash and Cash Equivalents</field>
+		<field name="chinese_name">现金及现金等价物的净增加额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0001</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue Summary</field>
+		<field name="chinese_name">营业总收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0002</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue</field>
+		<field name="chinese_name">营业收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0003</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue</field>
+		<field name="chinese_name">利息收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0004</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue</field>
+		<field name="chinese_name">已赚保费(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0005</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue</field>
+		<field name="chinese_name">手续费及佣金收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0006</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue</field>
+		<field name="chinese_name">房地产销售收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0007</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Revenue</field>
+		<field name="chinese_name">其他业务收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0008</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense Summary</field>
+		<field name="chinese_name">营业总成本(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0009</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">营业成本(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0010</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">利息支出(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0011</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">手续费及佣金支出(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0012</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">房地产销售成本(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0013</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">研发费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0014</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">退保金(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0015</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">赔付支出净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0016</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">提取保险合同准备金净额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0017</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">保单红利支出(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0018</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">分保费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0019</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">其他业务成本(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0020</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">营业税金及附加(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0021</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">销售费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0022</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">管理费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0023</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">财务费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0024</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">资产减值损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0025</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">公允价值变动收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0026</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">投资收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0027</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">对联营企业和合营企业的投资收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0028</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">汇兑收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0029</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">期货损益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0030</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">托管收益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0031</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">补贴收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0032</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Expense</field>
+		<field name="chinese_name">其他业务利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0033</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit Summary</field>
+		<field name="chinese_name">营业利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0034</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit</field>
+		<field name="chinese_name">营业外收入(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0035</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit</field>
+		<field name="chinese_name">营业外支出(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0036</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit</field>
+		<field name="chinese_name">非流动资产处置损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0037</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit</field>
+		<field name="chinese_name">利润总额(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0038</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit</field>
+		<field name="chinese_name">所得税费用(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0039</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Operating Profit</field>
+		<field name="chinese_name">未确认投资损失(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0040</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Net Profit Summary</field>
+		<field name="chinese_name">净利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0041</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Net Profit</field>
+		<field name="chinese_name">归属于母公司所有者的净利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0042</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Net Profit</field>
+		<field name="chinese_name">被合并方在合并前实现净利润(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0043</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">Net Profit</field>
+		<field name="chinese_name">少数股东损益(万元)</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0044</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">EPS</field>
+		<field name="chinese_name">基本每股收益</field>
+		<field name="english_name"></field>
+	</row>
+	<row>
+		<field name="column_name">is_0045</field>
+		<field name="table_name">income_statement</field>
+		<field name="category">EPS</field>
+		<field name="chinese_name">稀释每股收益</field>
+		<field name="english_name"></field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
